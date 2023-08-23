@@ -1,9 +1,7 @@
-mod problem_one;
+use crate::problem_two::{area, perimeter};
+
+mod problem_two;
 
 fn main() {
-    let a = 4 ;
-    let b= 5;
-    let c =a+b ;
-    println!("a+b = {}", c);
-    problem_one::print_hello();
+   
 }
